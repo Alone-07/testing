@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  --5: 5;
+  --br-5: var(--5) px;
+  --br-10: calc(var(--5) * 2) px;
+  --br-15: calc(var(--5) * 3) px;
+  --pad-5: var(--5) px;
+  --pad-10: calc(var(--5) * 2) px;
+  --pad-15: calc(var(--5) * 3) px;
+  --ff: sans-serif;
+  --fw-5: 500;
+  --fw-7: 700;
+  --fw-8: 800;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button,
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  outline: none;
+}
+image {
+  display: block;
+  max-width: 100%;
+}

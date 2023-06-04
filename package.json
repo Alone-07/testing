@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./script.js",
+    "watch": "live-server ."
+  },
+  "author": "",
+  "license": "ISC"
+}
