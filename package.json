@@ -5,9 +5,9 @@
   "main": "script.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./script.js",
-    "watch": "live-server ."
+    "test": "node script.js",
+    "dev": "node --watch script.js"
   },
-  "author": "",
+  "author": "krish",
   "license": "ISC"
 }

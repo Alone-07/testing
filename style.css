@@ -4,23 +4,20 @@
   box-sizing: border-box;
 }
 :root {
-  --5: 5;
-  --br-5: var(--5) px;
-  --br-10: calc(var(--5) * 2) px;
-  --br-15: calc(var(--5) * 3) px;
-  --pad-5: var(--5) px;
-  --pad-10: calc(var(--5) * 2) px;
-  --pad-15: calc(var(--5) * 3) px;
+  --f: 5px;
+  --br-15: calc(var(--f) * 3);
   --ff: sans-serif;
   --fw-5: 500;
   --fw-7: 700;
   --fw-8: 800;
+  line-height: 1.5;
+  color-scheme: dark light;
+  font-family: var(--ff);
 }
 body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #242424;
 }
 
 a,
@@ -36,7 +33,7 @@ button {
   border: none;
   outline: none;
 }
-image {
+img {
   display: block;
   max-width: 100%;
 }
