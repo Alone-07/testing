@@ -5,18 +5,23 @@
   <title>Learning</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./style.css" />
-  <script src="./script.js" type="module"></script>
-  <style>
-    body {
-      background-color: #323437;
-      color: black;
-    }
-  </style>
+  <link href="./style.css" rel="stylesheet">
+  </link>
 </head>
 
 <body>
-  <canvas id="canvas" style="background-color: white" width="650px" height="650px"></canvas>
+  <form action="succesfull.html" name='form'>
+    <label for="name">Name:
+      <input type="text" name="name">
+    </label>
+    <label for="name">email:
+      <input type="email" name="email">
+    </label>
+    <input type="submit" value="submit">
+  </form>
+  <button type="button" id="get_users">get users</button>
+  <ul id="list_of_users"></ul>
 </body>
+<script src="./index.js" defer></script>
 
 </html>

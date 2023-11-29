@@ -5,5 +5,4 @@ let user = {
   },
 };
 let fileName = "ragnar";
-export default user;
-export { fileName };
+

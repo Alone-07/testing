@@ -1,6 +1,12 @@
-{
-  "user": {
+[
+  {
     "name": "krish",
-    "age": "21"
+    "age": 21,
+    "email": "example@gmail.com"
+  },
+  {
+    "name": "gopika",
+    "age": 18,
+    "email": "example@gmail.com"
   }
-}
+]
