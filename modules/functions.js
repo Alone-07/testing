@@ -16,4 +16,5 @@ function indexHTML(req, res, fs) {
   }
 }
 
-export { indexHTML }
+const add = (a, b) => a + b
+export { indexHTML as default, add }

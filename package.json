@@ -9,5 +9,8 @@
     "dev": "node --watch script.js"
   },
   "author": "krish",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemailer": "^6.9.7"
+  }
 }
