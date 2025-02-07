@@ -29,5 +29,7 @@ jobs:
     - run: npm ci
     # - run: npm run build --if-present
     # - run: npm test
-    - run: npm run i-react
-    - run: npm run lint
+    # - run: npm run i-react
+    # - run: npm run lint
+    - run: cd ./my-react-app && npm ci && npm run lint
+    
