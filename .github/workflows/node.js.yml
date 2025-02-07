@@ -32,3 +32,4 @@ jobs:
     # - run: npm run i-react
     # - run: npm run lint
     - run: cd ./my-react-app && npm ci && npm run lint
+    

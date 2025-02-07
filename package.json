@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "node script.js",
-    "dev": "node --watch script.js"
+    "dev": "node --watch script.js",
+    "lint": "cd ./my-react-app && npm run lint",
+    "i-react": "cd ./my-react-app && npm install"
   },
   "author": "krish",
   "license": "ISC",
